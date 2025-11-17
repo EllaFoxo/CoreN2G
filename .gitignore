@@ -59,3 +59,9 @@
 /RP2040_RTOS/
 /.clangd
 /.clang-format
+
+.idea
+subprojects/.wraplock
+subprojects/libcanlib
+subprojects/libfreertos
+subprojects/librrflibraries
