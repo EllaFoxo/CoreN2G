@@ -123,9 +123,6 @@ if get_option('board') == 'TOOL1RR'
         '-Wa,-ahl=$*.s',
         '-fstack-usage',
     ]
-
-    add_project_arguments(c_args, language : 'c')
-    add_project_arguments(cpp_args, language : 'cpp')
 endif
 
 libfreertos = subproject('libfreertos')
